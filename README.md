@@ -8,9 +8,9 @@ We were expected to produce source code as well as a technical report including 
 We eventually decided to implement an existing hybrid recommender system which combines content-based and collaborative filtering techniques, with Singular Value Decomposition (SVD) integration and also in conjunction with natural language processing (NLP) models such as Bidirectional Encoder Representations from Transformers (BERT); to provide personalised and relevant recommendations to users based on their preference. We also sought to evaluate model performance by metrics including precision and recall. 
 
 Setup/System requirements: 
-The recommender system was developed in Python, utilizing libraries such as _pandas, numpy, sklearn, surprise, torch, transformers_, and _tqdm. _
+The recommender system was developed in Python, utilizing libraries such as _pandas, numpy, sklearn, surprise, torch, transformers_, and _tqdm_. 
 
-The libraries _pandas_ and _numpy_ were imported for data handling and manipulation; the _random_ library for sampling as well as the library _sklearn_ for similarity calculations and splitting the dataset into training and testing datasets via _cosine_similarity_ and _train_test_split. _
+The libraries _pandas_ and _numpy_ were imported for data handling and manipulation; the _random_ library for sampling as well as the library _sklearn_ for similarity calculations and splitting the dataset into training and testing datasets via _cosine_similarity_ and _train_test_split_.
 
 The _BERT_ algorithm demands substantial computational resources because of its intricate architecture. To address this, the _torch_ and _transformers_ libraries were imported. In particular, _torch.device_ is used to check for GPU availability and allocate the model for processing which decreases time needed.
  
